@@ -14,7 +14,7 @@ from gym.utils import seeding
 
 from gym_donkeycar.envs.donkey_proc import DonkeyUnityProcess
 from gym_donkeycar.envs.donkey_sim import DonkeyUnitySimContoller
-
+1
 logger = logging.getLogger(__name__)
 
 
@@ -34,7 +34,7 @@ def supply_defaults(conf: Dict[str, Any]) -> None:
         ("log_level", logging.INFO),
         ("host", "localhost"),
         ("port", 9091),
-        ("steer_limit", 1.0),
+        ("steer_limit", 0.5),
         ("throttle_min", 0.0),
         ("throttle_max", 1.0),
     ]
